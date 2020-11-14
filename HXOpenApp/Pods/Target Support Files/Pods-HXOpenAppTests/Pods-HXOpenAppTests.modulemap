@@ -1,0 +1,6 @@
+framework module Pods_HXOpenAppTests {
+  umbrella header "Pods-HXOpenAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

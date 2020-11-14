@@ -1,0 +1,6 @@
+framework module Pods_MVVM_RAC_MVVM_RACUITests {
+  umbrella header "Pods-MVVM+RAC-MVVM+RACUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>login</key>
+	<string>HXUILoginViewController</string>
+	<key>trade</key>
+	<string>HXUITradeViewController</string>
+	<key>fiveChart</key>
+	<string>HXUIFiveTradeChartView</string>
+	<key>customTableView</key>
+	<string>HXUICustomTableView</string>
+	<key>stockeInput</key>
+	<string>HXUIStockeInputView</string>
+</dict>
+</plist>

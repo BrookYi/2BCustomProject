@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BAB232978A52063B294CF51 /* Pods_HXOpenApp_HXOpenAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1E82E96096CCC3AEEB6192 /* Pods_HXOpenApp_HXOpenAppUITests.framework */; };
+		6138016E39A899078D2061DD /* Pods_HXOpenApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D951BF638234655EAFA98B /* Pods_HXOpenApp.framework */; };
+		BC04AF27255DA65F00CF25F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC04AF26255DA65F00CF25F0 /* AppDelegate.m */; };
+		BC04AF2D255DA65F00CF25F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC04AF2C255DA65F00CF25F0 /* ViewController.m */; };
+		BC04AF30255DA65F00CF25F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC04AF2E255DA65F00CF25F0 /* Main.storyboard */; };
+		BC04AF32255DA66300CF25F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC04AF31255DA66300CF25F0 /* Assets.xcassets */; };
+		BC04AF35255DA66300CF25F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC04AF33255DA66300CF25F0 /* LaunchScreen.storyboard */; };
+		BC04AF38255DA66300CF25F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC04AF37255DA66300CF25F0 /* main.m */; };
+		BC04AF42255DA66300CF25F0 /* HXOpenAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC04AF41255DA66300CF25F0 /* HXOpenAppTests.m */; };
+		BC04AF4D255DA66300CF25F0 /* HXOpenAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC04AF4C255DA66300CF25F0 /* HXOpenAppUITests.m */; };
+		F24B14CFECF6B25C9F67CB86 /* Pods_HXOpenAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A31C394BEEA6411B116AC29 /* Pods_HXOpenAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC04AF3E255DA66300CF25F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC04AF1A255DA65F00CF25F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC04AF21255DA65F00CF25F0;
+			remoteInfo = HXOpenApp;
+		};
+		BC04AF49255DA66300CF25F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC04AF1A255DA65F00CF25F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC04AF21255DA65F00CF25F0;
+			remoteInfo = HXOpenApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18749FD349A7F536942F9195 /* Pods-HXOpenAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXOpenAppTests.debug.xcconfig"; path = "Target Support Files/Pods-HXOpenAppTests/Pods-HXOpenAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A40596E52CF4584FB7B92C5 /* Pods-HXOpenAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXOpenAppTests.release.xcconfig"; path = "Target Support Files/Pods-HXOpenAppTests/Pods-HXOpenAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		6A31C394BEEA6411B116AC29 /* Pods_HXOpenAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXOpenAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1E82E96096CCC3AEEB6192 /* Pods_HXOpenApp_HXOpenAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXOpenApp_HXOpenAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9225439AD259A95555946B41 /* Pods-HXOpenApp-HXOpenAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXOpenApp-HXOpenAppUITests.release.xcconfig"; path = "Target Support Files/Pods-HXOpenApp-HXOpenAppUITests/Pods-HXOpenApp-HXOpenAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BC04AF22255DA65F00CF25F0 /* HXOpenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXOpenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC04AF25255DA65F00CF25F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC04AF26255DA65F00CF25F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC04AF2B255DA65F00CF25F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC04AF2C255DA65F00CF25F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC04AF2F255DA65F00CF25F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC04AF31255DA66300CF25F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC04AF34255DA66300CF25F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC04AF36255DA66300CF25F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC04AF37255DA66300CF25F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC04AF3D255DA66300CF25F0 /* HXOpenAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXOpenAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC04AF41255DA66300CF25F0 /* HXOpenAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXOpenAppTests.m; sourceTree = "<group>"; };
+		BC04AF43255DA66300CF25F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC04AF48255DA66300CF25F0 /* HXOpenAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXOpenAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC04AF4C255DA66300CF25F0 /* HXOpenAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXOpenAppUITests.m; sourceTree = "<group>"; };
+		BC04AF4E255DA66300CF25F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D951BF638234655EAFA98B /* Pods_HXOpenApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXOpenApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF709E6C5C95343CD3C77F39 /* Pods-HXOpenApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXOpenApp.release.xcconfig"; path = "Target Support Files/Pods-HXOpenApp/Pods-HXOpenApp.release.xcconfig"; sourceTree = "<group>"; };
+		F1F249098ED5F2E94D784D64 /* Pods-HXOpenApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXOpenApp.debug.xcconfig"; path = "Target Support Files/Pods-HXOpenApp/Pods-HXOpenApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F53D917447145BD3BEC603DC /* Pods-HXOpenApp-HXOpenAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXOpenApp-HXOpenAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-HXOpenApp-HXOpenAppUITests/Pods-HXOpenApp-HXOpenAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC04AF1F255DA65F00CF25F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6138016E39A899078D2061DD /* Pods_HXOpenApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC04AF3A255DA66300CF25F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24B14CFECF6B25C9F67CB86 /* Pods_HXOpenAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC04AF45255DA66300CF25F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAB232978A52063B294CF51 /* Pods_HXOpenApp_HXOpenAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0081383B4AA89826B940FB69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1F249098ED5F2E94D784D64 /* Pods-HXOpenApp.debug.xcconfig */,
+				DF709E6C5C95343CD3C77F39 /* Pods-HXOpenApp.release.xcconfig */,
+				F53D917447145BD3BEC603DC /* Pods-HXOpenApp-HXOpenAppUITests.debug.xcconfig */,
+				9225439AD259A95555946B41 /* Pods-HXOpenApp-HXOpenAppUITests.release.xcconfig */,
+				18749FD349A7F536942F9195 /* Pods-HXOpenAppTests.debug.xcconfig */,
+				1A40596E52CF4584FB7B92C5 /* Pods-HXOpenAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A63CC0B372804563C3D293D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5D951BF638234655EAFA98B /* Pods_HXOpenApp.framework */,
+				8F1E82E96096CCC3AEEB6192 /* Pods_HXOpenApp_HXOpenAppUITests.framework */,
+				6A31C394BEEA6411B116AC29 /* Pods_HXOpenAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC04AF19255DA65F00CF25F0 = {
+			isa = PBXGroup;
+			children = (
+				BC04AF24255DA65F00CF25F0 /* HXOpenApp */,
+				BC04AF40255DA66300CF25F0 /* HXOpenAppTests */,
+				BC04AF4B255DA66300CF25F0 /* HXOpenAppUITests */,
+				BC04AF23255DA65F00CF25F0 /* Products */,
+				0081383B4AA89826B940FB69 /* Pods */,
+				A63CC0B372804563C3D293D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC04AF23255DA65F00CF25F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC04AF22255DA65F00CF25F0 /* HXOpenApp.app */,
+				BC04AF3D255DA66300CF25F0 /* HXOpenAppTests.xctest */,
+				BC04AF48255DA66300CF25F0 /* HXOpenAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC04AF24255DA65F00CF25F0 /* HXOpenApp */ = {
+			isa = PBXGroup;
+			children = (
+				BC04AF25255DA65F00CF25F0 /* AppDelegate.h */,
+				BC04AF26255DA65F00CF25F0 /* AppDelegate.m */,
+				BC04AF2B255DA65F00CF25F0 /* ViewController.h */,
+				BC04AF2C255DA65F00CF25F0 /* ViewController.m */,
+				BC04AF2E255DA65F00CF25F0 /* Main.storyboard */,
+				BC04AF31255DA66300CF25F0 /* Assets.xcassets */,
+				BC04AF33255DA66300CF25F0 /* LaunchScreen.storyboard */,
+				BC04AF36255DA66300CF25F0 /* Info.plist */,
+				BC04AF37255DA66300CF25F0 /* main.m */,
+			);
+			path = HXOpenApp;
+			sourceTree = "<group>";
+		};
+		BC04AF40255DA66300CF25F0 /* HXOpenAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC04AF41255DA66300CF25F0 /* HXOpenAppTests.m */,
+				BC04AF43255DA66300CF25F0 /* Info.plist */,
+			);
+			path = HXOpenAppTests;
+			sourceTree = "<group>";
+		};
+		BC04AF4B255DA66300CF25F0 /* HXOpenAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC04AF4C255DA66300CF25F0 /* HXOpenAppUITests.m */,
+				BC04AF4E255DA66300CF25F0 /* Info.plist */,
+			);
+			path = HXOpenAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC04AF21255DA65F00CF25F0 /* HXOpenApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC04AF51255DA66300CF25F0 /* Build configuration list for PBXNativeTarget "HXOpenApp" */;
+			buildPhases = (
+				81199522BE5ED2F871510733 /* [CP] Check Pods Manifest.lock */,
+				BC04AF1E255DA65F00CF25F0 /* Sources */,
+				BC04AF1F255DA65F00CF25F0 /* Frameworks */,
+				BC04AF20255DA65F00CF25F0 /* Resources */,
+				1F7F011AC5AA0881BFC4B3D6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXOpenApp;
+			productName = HXOpenApp;
+			productReference = BC04AF22255DA65F00CF25F0 /* HXOpenApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC04AF3C255DA66300CF25F0 /* HXOpenAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC04AF54255DA66300CF25F0 /* Build configuration list for PBXNativeTarget "HXOpenAppTests" */;
+			buildPhases = (
+				34A0C54C2B6DF7834C79D5FB /* [CP] Check Pods Manifest.lock */,
+				BC04AF39255DA66300CF25F0 /* Sources */,
+				BC04AF3A255DA66300CF25F0 /* Frameworks */,
+				BC04AF3B255DA66300CF25F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC04AF3F255DA66300CF25F0 /* PBXTargetDependency */,
+			);
+			name = HXOpenAppTests;
+			productName = HXOpenAppTests;
+			productReference = BC04AF3D255DA66300CF25F0 /* HXOpenAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC04AF47255DA66300CF25F0 /* HXOpenAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC04AF57255DA66300CF25F0 /* Build configuration list for PBXNativeTarget "HXOpenAppUITests" */;
+			buildPhases = (
+				C1EDB68747F3ED078CC5CD28 /* [CP] Check Pods Manifest.lock */,
+				BC04AF44255DA66300CF25F0 /* Sources */,
+				BC04AF45255DA66300CF25F0 /* Frameworks */,
+				BC04AF46255DA66300CF25F0 /* Resources */,
+				CA30DD37D10CD6569988C8C0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC04AF4A255DA66300CF25F0 /* PBXTargetDependency */,
+			);
+			name = HXOpenAppUITests;
+			productName = HXOpenAppUITests;
+			productReference = BC04AF48255DA66300CF25F0 /* HXOpenAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC04AF1A255DA65F00CF25F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					BC04AF21255DA65F00CF25F0 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					BC04AF3C255DA66300CF25F0 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = BC04AF21255DA65F00CF25F0;
+					};
+					BC04AF47255DA66300CF25F0 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = BC04AF21255DA65F00CF25F0;
+					};
+				};
+			};
+			buildConfigurationList = BC04AF1D255DA65F00CF25F0 /* Build configuration list for PBXProject "HXOpenApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC04AF19255DA65F00CF25F0;
+			productRefGroup = BC04AF23255DA65F00CF25F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC04AF21255DA65F00CF25F0 /* HXOpenApp */,
+				BC04AF3C255DA66300CF25F0 /* HXOpenAppTests */,
+				BC04AF47255DA66300CF25F0 /* HXOpenAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC04AF20255DA65F00CF25F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC04AF35255DA66300CF25F0 /* LaunchScreen.storyboard in Resources */,
+				BC04AF32255DA66300CF25F0 /* Assets.xcassets in Resources */,
+				BC04AF30255DA65F00CF25F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC04AF3B255DA66300CF25F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC04AF46255DA66300CF25F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F7F011AC5AA0881BFC4B3D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HXOpenApp/Pods-HXOpenApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HXOpenApp/Pods-HXOpenApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HXOpenApp/Pods-HXOpenApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34A0C54C2B6DF7834C79D5FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HXOpenAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81199522BE5ED2F871510733 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HXOpenApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1EDB68747F3ED078CC5CD28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HXOpenApp-HXOpenAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA30DD37D10CD6569988C8C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HXOpenApp-HXOpenAppUITests/Pods-HXOpenApp-HXOpenAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HXOpenApp-HXOpenAppUITests/Pods-HXOpenApp-HXOpenAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HXOpenApp-HXOpenAppUITests/Pods-HXOpenApp-HXOpenAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC04AF1E255DA65F00CF25F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC04AF2D255DA65F00CF25F0 /* ViewController.m in Sources */,
+				BC04AF27255DA65F00CF25F0 /* AppDelegate.m in Sources */,
+				BC04AF38255DA66300CF25F0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC04AF39255DA66300CF25F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC04AF42255DA66300CF25F0 /* HXOpenAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC04AF44255DA66300CF25F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC04AF4D255DA66300CF25F0 /* HXOpenAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC04AF3F255DA66300CF25F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC04AF21255DA65F00CF25F0 /* HXOpenApp */;
+			targetProxy = BC04AF3E255DA66300CF25F0 /* PBXContainerItemProxy */;
+		};
+		BC04AF4A255DA66300CF25F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC04AF21255DA65F00CF25F0 /* HXOpenApp */;
+			targetProxy = BC04AF49255DA66300CF25F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC04AF2E255DA65F00CF25F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC04AF2F255DA65F00CF25F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC04AF33255DA66300CF25F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC04AF34255DA66300CF25F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC04AF4F255DA66300CF25F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC04AF50255DA66300CF25F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC04AF52255DA66300CF25F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F249098ED5F2E94D784D64 /* Pods-HXOpenApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HXOpenApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluesky.HXOpenApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC04AF53255DA66300CF25F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF709E6C5C95343CD3C77F39 /* Pods-HXOpenApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HXOpenApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluesky.HXOpenApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC04AF55255DA66300CF25F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18749FD349A7F536942F9195 /* Pods-HXOpenAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HXOpenAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluesky.HXOpenAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXOpenApp.app/HXOpenApp";
+			};
+			name = Debug;
+		};
+		BC04AF56255DA66300CF25F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A40596E52CF4584FB7B92C5 /* Pods-HXOpenAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HXOpenAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluesky.HXOpenAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXOpenApp.app/HXOpenApp";
+			};
+			name = Release;
+		};
+		BC04AF58255DA66300CF25F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F53D917447145BD3BEC603DC /* Pods-HXOpenApp-HXOpenAppUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HXOpenAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluesky.HXOpenAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HXOpenApp;
+			};
+			name = Debug;
+		};
+		BC04AF59255DA66300CF25F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9225439AD259A95555946B41 /* Pods-HXOpenApp-HXOpenAppUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HXOpenAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluesky.HXOpenAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HXOpenApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC04AF1D255DA65F00CF25F0 /* Build configuration list for PBXProject "HXOpenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC04AF4F255DA66300CF25F0 /* Debug */,
+				BC04AF50255DA66300CF25F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC04AF51255DA66300CF25F0 /* Build configuration list for PBXNativeTarget "HXOpenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC04AF52255DA66300CF25F0 /* Debug */,
+				BC04AF53255DA66300CF25F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC04AF54255DA66300CF25F0 /* Build configuration list for PBXNativeTarget "HXOpenAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC04AF55255DA66300CF25F0 /* Debug */,
+				BC04AF56255DA66300CF25F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC04AF57255DA66300CF25F0 /* Build configuration list for PBXNativeTarget "HXOpenAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC04AF58255DA66300CF25F0 /* Debug */,
+				BC04AF59255DA66300CF25F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC04AF1A255DA65F00CF25F0 /* Project object */;
+}

@@ -1,0 +1,64 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'HXOpenApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  
+  # Pods for HXOpenApp
+  #默认主版本
+#    pod 'BBMainProject', :path => '../MVVM+RAC/'
+  
+  #  只导入基础库，没有UI，也可检测引用
+#    pod 'BBMainProject', :path => '../MVVM+RAC/', :subspecs => [
+#    'Core/HXNS基础库'
+#    ]
+  
+  #  只导入某个功能。用途：比如行情模块、行情+普通交易
+#    pod 'BBMainProject', :path => '../MVVM+RAC/', :subspecs => [
+#    'Core/HX页面功能库/交易'
+#    ]
+#  pod 'BBMainProject', :path => '../MVVM+RAC/', :subspecs => [
+#  'Core/HX页面功能库/登录'
+#  ]
+  
+  #  V20主版本，有定制登录界面、五档图视图
+#    pod 'BBMainProject', :path => '../MVVM+RAC/', :subspecs => [
+#        'Versions/V20'
+#    ]
+  
+  #  V20版本，脑子抽筋只想要新版视图库的需求（类似于基于16版，要部分V20版本）
+  #  pod 'BBMainProject', :path => '../MVVM+RAC/', :subspecs => [
+  #      'Versions/V20/HXUI基础库'
+  #  ]
+  
+  #  某某版本，基于V20，部分使用基础版本，简单，只需更改配置文件对应页面或视图
+  
+  
+  #  某某版本，基于16版，要部分V20版本
+  # 1 这种因为没有修改配置文件，没有引入的库会不显示
+#    pod 'BBMainProject', :path => '../MVVM+RAC/', :subspecs => [
+#        'Versions/V20/HX页面功能库'
+#    ]
+  # 2 如果需要修改配置文件，使用另外一个版本。只有引入的是20新版，其他为老版
+    pod 'BBMainProject', :path => '../MVVM+RAC/', :subspecs => [
+        'Versions/V30'
+    ]
+  
+  
+  
+  #  pod 'BBMainProject', :path => '../MVVM+RAC/', :subspecs => [
+  #      'Versions/v20/HXUI基础库'
+  #  ]
+  
+  
+  target 'HXOpenAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+  
+  target 'HXOpenAppUITests' do
+    # Pods for testing
+  end
+  
+end

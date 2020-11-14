@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MVVM+RAC' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MVVM+RAC
+    pod 'ReactiveObjC'
+    pod 'Masonry'
+    pod 'AFNetworking'
+    pod 'ReactiveAFNetworking'
+    pod 'MBProgressHUD'
+    pod 'YYModel'
+    pod 'JLRoutes'
+    pod 'QMUIKit'
+  target 'MVVM+RACTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MVVM+RACUITests' do
+    # Pods for testing
+  end
+
+end

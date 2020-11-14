@@ -1,0 +1,6 @@
+framework module Pods_HXOpenApp {
+  umbrella header "Pods-HXOpenApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

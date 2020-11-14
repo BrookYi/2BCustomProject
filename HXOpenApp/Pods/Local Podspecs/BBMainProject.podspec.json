@@ -1,0 +1,183 @@
+{
+  "name": "BBMainProject",
+  "version": "0.1.0",
+  "summary": "A short description of BBMainProject.",
+  "description": "主项目物理分割分层实践",
+  "homepage": "https://github.com/ysh287515814@hotmail.com/BBMainProject",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ysh287515814@hotmail.com": "287515814@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/ysh287515814@hotmail.com/BBMainProject.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "default_subspecs": "Core",
+  "resource_bundles": {
+    "BBBundle": [
+      "主目录/**/*.plist"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "subspecs": [
+        {
+          "name": "配置中心",
+          "resource_bundles": {
+            "BBBundle": [
+              "主目录/**/*.plist"
+            ]
+          },
+          "source_files": "主目录/配置管理/**/*.{h,m}"
+        },
+        {
+          "name": "route",
+          "dependencies": {
+            "BBMainProject/Core/配置中心": [
+
+            ],
+            "JLRoutes": [
+
+            ]
+          },
+          "source_files": "主目录/路由管理/**/*.{h,m}"
+        },
+        {
+          "name": "HXNS基础库",
+          "dependencies": {
+            "YYModel": [
+
+            ],
+            "ReactiveObjC": [
+
+            ],
+            "AFNetworking": [
+
+            ],
+            "ReactiveAFNetworking": [
+
+            ]
+          },
+          "source_files": "主目录/HXNS基础库/**/*.{h,m}"
+        },
+        {
+          "name": "HXUI基础库",
+          "dependencies": {
+            "Masonry": [
+
+            ],
+            "QMUIKit": [
+
+            ],
+            "MBProgressHUD": [
+
+            ],
+            "BBMainProject/Core/HXNS基础库": [
+
+            ],
+            "BBMainProject/Core/配置中心": [
+
+            ]
+          },
+          "source_files": "主目录/HXUI基础库/**/*.{h,m}"
+        },
+        {
+          "name": "HX页面功能库",
+          "dependencies": {
+            "BBMainProject/Core/HXUI基础库": [
+
+            ],
+            "BBMainProject/Core/route": [
+
+            ]
+          },
+          "subspecs": [
+            {
+              "name": "登录",
+              "source_files": "主目录/HX页面功能库/登录页面/**/*.{h,m}"
+            },
+            {
+              "name": "交易",
+              "source_files": "主目录/HX页面功能库/交易界面/**/*.{h,m}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Versions",
+      "subspecs": [
+        {
+          "name": "V20",
+          "resource_bundles": {
+            "BBBundle": [
+              "主目录/**/*.plist",
+              "版本/**/*.plist"
+            ]
+          },
+          "subspecs": [
+            {
+              "name": "HXUI基础库",
+              "dependencies": {
+                "BBMainProject/Core/HXUI基础库": [
+
+                ]
+              },
+              "source_files": "版本/2020版本.20/五档视图模块/**/*.{h,m}",
+              "resource_bundles": {
+                "BBBundle": [
+                  "主目录/**/*.plist",
+                  "版本/**/*.plist"
+                ]
+              }
+            },
+            {
+              "name": "HX页面功能库",
+              "subspecs": [
+                {
+                  "name": "登录",
+                  "dependencies": {
+                    "BBMainProject/Core/HX页面功能库/登录": [
+
+                    ]
+                  },
+                  "source_files": "版本/2020版本.20/登录页面/**/*.{h,m}",
+                  "resource_bundles": {
+                    "BBBundle": [
+                      "主目录/**/*.plist",
+                      "版本/**/*.plist"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "V30",
+          "dependencies": {
+            "BBMainProject/Core/HX页面功能库": [
+
+            ],
+            "BBMainProject/Versions/V20/HX页面功能库/登录": [
+
+            ]
+          },
+          "resource_bundles": {
+            "BBBundle": [
+              "主目录/**/*.plist",
+              "版本/2030版本.30/**/*.plist"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

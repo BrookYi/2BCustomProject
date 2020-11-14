@@ -1,0 +1,6 @@
+framework module BBMainProject {
+  umbrella header "BBMainProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
